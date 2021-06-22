@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Facebook"; ObjectID = "Ctt-Cd-2lA"; */
+"Ctt-Cd-2lA.normalTitle" = "Facebook";
+
+/* Class = "UIButton"; normalTitle = "Google"; ObjectID = "Jpd-UD-TQj"; */
+"Jpd-UD-TQj.normalTitle" = "Google";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "MlY-0n-jUI"; */
+"MlY-0n-jUI.normalTitle" = "Close";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "T6m-I5-Yhc"; */
+"T6m-I5-Yhc.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Tbm-D7-o4p"; */
+"Tbm-D7-o4p.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XSa-A5-IJP"; */
+"XSa-A5-IJP.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "aAu-ZP-TkU"; */
+"aAu-ZP-TkU.normalTitle" = "Close";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uGc-3R-jNC"; */
+"uGc-3R-jNC.normalTitle" = "Button";

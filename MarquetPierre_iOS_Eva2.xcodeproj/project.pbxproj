@@ -15,6 +15,13 @@
 		F5188F432681DC1600E39836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5188F412681DC1600E39836 /* LaunchScreen.storyboard */; };
 		F5188F4E2681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F4D2681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests.swift */; };
 		F5188F592681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F582681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.swift */; };
+		F5188F6C2681FA3100E39836 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F6A2681FA3100E39836 /* ModalViewController.swift */; };
+		F5188F6D2681FA3100E39836 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5188F6B2681FA3100E39836 /* ModalViewController.xib */; };
+		F5188F6F26820F1000E39836 /* ModalFacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F6E26820F1000E39836 /* ModalFacebookViewController.swift */; };
+		F5188F71268217CA00E39836 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F70268217CA00E39836 /* Pokemon.swift */; };
+		F5188F7826821ED000E39836 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F7626821ED000E39836 /* PokemonTableViewCell.swift */; };
+		F5188F7926821ED000E39836 /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5188F7726821ED000E39836 /* PokemonTableViewCell.xib */; };
+		F5188F7D2682286B00E39836 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5188F7F2682286B00E39836 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,15 @@
 		F5188F542681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarquetPierre_iOS_Eva2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5188F582681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarquetPierre_iOS_Eva2UITests.swift; sourceTree = "<group>"; };
 		F5188F5A2681DC1600E39836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5188F6A2681FA3100E39836 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		F5188F6B2681FA3100E39836 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		F5188F6E26820F1000E39836 /* ModalFacebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalFacebookViewController.swift; sourceTree = "<group>"; };
+		F5188F70268217CA00E39836 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		F5188F7626821ED000E39836 /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
+		F5188F7726821ED000E39836 /* PokemonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonTableViewCell.xib; sourceTree = "<group>"; };
+		F5188F7C2682285B00E39836 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		F5188F7E2682286B00E39836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5188F802682287500E39836 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +118,14 @@
 				F5188F362681DC1500E39836 /* AppDelegate.swift */,
 				F5188F382681DC1600E39836 /* SceneDelegate.swift */,
 				F5188F3A2681DC1600E39836 /* ViewController.swift */,
+				F5188F70268217CA00E39836 /* Pokemon.swift */,
 				F5188F3C2681DC1600E39836 /* Main.storyboard */,
+				F5188F7626821ED000E39836 /* PokemonTableViewCell.swift */,
+				F5188F7F2682286B00E39836 /* Localizable.strings */,
+				F5188F7726821ED000E39836 /* PokemonTableViewCell.xib */,
+				F5188F6E26820F1000E39836 /* ModalFacebookViewController.swift */,
+				F5188F6A2681FA3100E39836 /* ModalViewController.swift */,
+				F5188F6B2681FA3100E39836 /* ModalViewController.xib */,
 				F5188F3F2681DC1600E39836 /* Assets.xcassets */,
 				F5188F412681DC1600E39836 /* LaunchScreen.storyboard */,
 				F5188F442681DC1600E39836 /* Info.plist */,
@@ -213,6 +236,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = F5188F2A2681DC1500E39836;
 			productRefGroup = F5188F342681DC1500E39836 /* Products */;
@@ -231,6 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5188F6D2681FA3100E39836 /* ModalViewController.xib in Resources */,
+				F5188F7D2682286B00E39836 /* Localizable.strings in Resources */,
+				F5188F7926821ED000E39836 /* PokemonTableViewCell.xib in Resources */,
 				F5188F432681DC1600E39836 /* LaunchScreen.storyboard in Resources */,
 				F5188F402681DC1600E39836 /* Assets.xcassets in Resources */,
 				F5188F3E2681DC1600E39836 /* Main.storyboard in Resources */,
@@ -258,9 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5188F6C2681FA3100E39836 /* ModalViewController.swift in Sources */,
+				F5188F7826821ED000E39836 /* PokemonTableViewCell.swift in Sources */,
 				F5188F3B2681DC1600E39836 /* ViewController.swift in Sources */,
+				F5188F6F26820F1000E39836 /* ModalFacebookViewController.swift in Sources */,
 				F5188F372681DC1500E39836 /* AppDelegate.swift in Sources */,
 				F5188F392681DC1600E39836 /* SceneDelegate.swift in Sources */,
+				F5188F71268217CA00E39836 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +331,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F5188F3D2681DC1600E39836 /* Base */,
+				F5188F7C2682285B00E39836 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +344,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		F5188F7F2682286B00E39836 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5188F7E2682286B00E39836 /* en */,
+				F5188F802682287500E39836 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -319,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
