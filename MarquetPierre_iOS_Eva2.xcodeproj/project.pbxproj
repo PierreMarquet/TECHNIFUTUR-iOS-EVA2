@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5188F372681DC1500E39836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F362681DC1500E39836 /* AppDelegate.swift */; };
+		F5188F392681DC1600E39836 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F382681DC1600E39836 /* SceneDelegate.swift */; };
+		F5188F3B2681DC1600E39836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F3A2681DC1600E39836 /* ViewController.swift */; };
+		F5188F3E2681DC1600E39836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5188F3C2681DC1600E39836 /* Main.storyboard */; };
+		F5188F402681DC1600E39836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5188F3F2681DC1600E39836 /* Assets.xcassets */; };
+		F5188F432681DC1600E39836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5188F412681DC1600E39836 /* LaunchScreen.storyboard */; };
+		F5188F4E2681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F4D2681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests.swift */; };
+		F5188F592681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5188F582681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5188F4A2681DC1600E39836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5188F2B2681DC1500E39836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5188F322681DC1500E39836;
+			remoteInfo = MarquetPierre_iOS_Eva2;
+		};
+		F5188F552681DC1600E39836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5188F2B2681DC1500E39836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5188F322681DC1500E39836;
+			remoteInfo = MarquetPierre_iOS_Eva2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5188F332681DC1500E39836 /* MarquetPierre_iOS_Eva2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarquetPierre_iOS_Eva2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5188F362681DC1500E39836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5188F382681DC1600E39836 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5188F3A2681DC1600E39836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5188F3D2681DC1600E39836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5188F3F2681DC1600E39836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5188F422681DC1600E39836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5188F442681DC1600E39836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5188F492681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarquetPierre_iOS_Eva2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5188F4D2681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarquetPierre_iOS_Eva2Tests.swift; sourceTree = "<group>"; };
+		F5188F4F2681DC1600E39836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5188F542681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarquetPierre_iOS_Eva2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5188F582681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarquetPierre_iOS_Eva2UITests.swift; sourceTree = "<group>"; };
+		F5188F5A2681DC1600E39836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5188F302681DC1500E39836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5188F462681DC1600E39836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5188F512681DC1600E39836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5188F2A2681DC1500E39836 = {
+			isa = PBXGroup;
+			children = (
+				F5188F352681DC1500E39836 /* MarquetPierre_iOS_Eva2 */,
+				F5188F4C2681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests */,
+				F5188F572681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests */,
+				F5188F342681DC1500E39836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5188F342681DC1500E39836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5188F332681DC1500E39836 /* MarquetPierre_iOS_Eva2.app */,
+				F5188F492681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests.xctest */,
+				F5188F542681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5188F352681DC1500E39836 /* MarquetPierre_iOS_Eva2 */ = {
+			isa = PBXGroup;
+			children = (
+				F5188F362681DC1500E39836 /* AppDelegate.swift */,
+				F5188F382681DC1600E39836 /* SceneDelegate.swift */,
+				F5188F3A2681DC1600E39836 /* ViewController.swift */,
+				F5188F3C2681DC1600E39836 /* Main.storyboard */,
+				F5188F3F2681DC1600E39836 /* Assets.xcassets */,
+				F5188F412681DC1600E39836 /* LaunchScreen.storyboard */,
+				F5188F442681DC1600E39836 /* Info.plist */,
+			);
+			path = MarquetPierre_iOS_Eva2;
+			sourceTree = "<group>";
+		};
+		F5188F4C2681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5188F4D2681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests.swift */,
+				F5188F4F2681DC1600E39836 /* Info.plist */,
+			);
+			path = MarquetPierre_iOS_Eva2Tests;
+			sourceTree = "<group>";
+		};
+		F5188F572681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5188F582681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.swift */,
+				F5188F5A2681DC1600E39836 /* Info.plist */,
+			);
+			path = MarquetPierre_iOS_Eva2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5188F322681DC1500E39836 /* MarquetPierre_iOS_Eva2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5188F5D2681DC1600E39836 /* Build configuration list for PBXNativeTarget "MarquetPierre_iOS_Eva2" */;
+			buildPhases = (
+				F5188F2F2681DC1500E39836 /* Sources */,
+				F5188F302681DC1500E39836 /* Frameworks */,
+				F5188F312681DC1500E39836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarquetPierre_iOS_Eva2;
+			productName = MarquetPierre_iOS_Eva2;
+			productReference = F5188F332681DC1500E39836 /* MarquetPierre_iOS_Eva2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5188F482681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5188F602681DC1600E39836 /* Build configuration list for PBXNativeTarget "MarquetPierre_iOS_Eva2Tests" */;
+			buildPhases = (
+				F5188F452681DC1600E39836 /* Sources */,
+				F5188F462681DC1600E39836 /* Frameworks */,
+				F5188F472681DC1600E39836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5188F4B2681DC1600E39836 /* PBXTargetDependency */,
+			);
+			name = MarquetPierre_iOS_Eva2Tests;
+			productName = MarquetPierre_iOS_Eva2Tests;
+			productReference = F5188F492681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5188F532681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5188F632681DC1600E39836 /* Build configuration list for PBXNativeTarget "MarquetPierre_iOS_Eva2UITests" */;
+			buildPhases = (
+				F5188F502681DC1600E39836 /* Sources */,
+				F5188F512681DC1600E39836 /* Frameworks */,
+				F5188F522681DC1600E39836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5188F562681DC1600E39836 /* PBXTargetDependency */,
+			);
+			name = MarquetPierre_iOS_Eva2UITests;
+			productName = MarquetPierre_iOS_Eva2UITests;
+			productReference = F5188F542681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5188F2B2681DC1500E39836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F5188F322681DC1500E39836 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					F5188F482681DC1600E39836 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = F5188F322681DC1500E39836;
+					};
+					F5188F532681DC1600E39836 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = F5188F322681DC1500E39836;
+					};
+				};
+			};
+			buildConfigurationList = F5188F2E2681DC1500E39836 /* Build configuration list for PBXProject "MarquetPierre_iOS_Eva2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5188F2A2681DC1500E39836;
+			productRefGroup = F5188F342681DC1500E39836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5188F322681DC1500E39836 /* MarquetPierre_iOS_Eva2 */,
+				F5188F482681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests */,
+				F5188F532681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5188F312681DC1500E39836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5188F432681DC1600E39836 /* LaunchScreen.storyboard in Resources */,
+				F5188F402681DC1600E39836 /* Assets.xcassets in Resources */,
+				F5188F3E2681DC1600E39836 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5188F472681DC1600E39836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5188F522681DC1600E39836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5188F2F2681DC1500E39836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5188F3B2681DC1600E39836 /* ViewController.swift in Sources */,
+				F5188F372681DC1500E39836 /* AppDelegate.swift in Sources */,
+				F5188F392681DC1600E39836 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5188F452681DC1600E39836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5188F4E2681DC1600E39836 /* MarquetPierre_iOS_Eva2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5188F502681DC1600E39836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5188F592681DC1600E39836 /* MarquetPierre_iOS_Eva2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5188F4B2681DC1600E39836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5188F322681DC1500E39836 /* MarquetPierre_iOS_Eva2 */;
+			targetProxy = F5188F4A2681DC1600E39836 /* PBXContainerItemProxy */;
+		};
+		F5188F562681DC1600E39836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5188F322681DC1500E39836 /* MarquetPierre_iOS_Eva2 */;
+			targetProxy = F5188F552681DC1600E39836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5188F3C2681DC1600E39836 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5188F3D2681DC1600E39836 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5188F412681DC1600E39836 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5188F422681DC1600E39836 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5188F5B2681DC1600E39836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5188F5C2681DC1600E39836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5188F5E2681DC1600E39836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarquetPierre_iOS_Eva2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.technifutur.MarquetPierre-iOS-Eva2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5188F5F2681DC1600E39836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarquetPierre_iOS_Eva2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.technifutur.MarquetPierre-iOS-Eva2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5188F612681DC1600E39836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarquetPierre_iOS_Eva2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.technifutur.MarquetPierre-iOS-Eva2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarquetPierre_iOS_Eva2.app/MarquetPierre_iOS_Eva2";
+			};
+			name = Debug;
+		};
+		F5188F622681DC1600E39836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarquetPierre_iOS_Eva2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.technifutur.MarquetPierre-iOS-Eva2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarquetPierre_iOS_Eva2.app/MarquetPierre_iOS_Eva2";
+			};
+			name = Release;
+		};
+		F5188F642681DC1600E39836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarquetPierre_iOS_Eva2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.technifutur.MarquetPierre-iOS-Eva2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarquetPierre_iOS_Eva2;
+			};
+			name = Debug;
+		};
+		F5188F652681DC1600E39836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarquetPierre_iOS_Eva2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.technifutur.MarquetPierre-iOS-Eva2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarquetPierre_iOS_Eva2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5188F2E2681DC1500E39836 /* Build configuration list for PBXProject "MarquetPierre_iOS_Eva2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5188F5B2681DC1600E39836 /* Debug */,
+				F5188F5C2681DC1600E39836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5188F5D2681DC1600E39836 /* Build configuration list for PBXNativeTarget "MarquetPierre_iOS_Eva2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5188F5E2681DC1600E39836 /* Debug */,
+				F5188F5F2681DC1600E39836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5188F602681DC1600E39836 /* Build configuration list for PBXNativeTarget "MarquetPierre_iOS_Eva2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5188F612681DC1600E39836 /* Debug */,
+				F5188F622681DC1600E39836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5188F632681DC1600E39836 /* Build configuration list for PBXNativeTarget "MarquetPierre_iOS_Eva2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5188F642681DC1600E39836 /* Debug */,
+				F5188F652681DC1600E39836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5188F2B2681DC1500E39836 /* Project object */;
+}
